@@ -47,7 +47,7 @@ hr {
 
 }
 
-#logo {
+li, #logo {
   transition: all 300ms; -webkit-transition: all 300ms; -moz-transition: all 300ms; -o-transition: all 300ms;}
 }
 
@@ -76,4 +76,23 @@ header {
 #logo img {
   width: 100%;
 
+}
+
+header nav {
+  float: right;
+  margin: 10px 50px 0 0;
+
+}
+
+header nav ul li {
+  float: left;
+  margin-right: 25px;
+}
+
+header nav ul li a {
+  font-size: 16px;
+}
+
+header nav ul li:hover {
+  padding-top: 5px;
 }
